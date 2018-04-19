@@ -2,3 +2,4 @@
 config/app.php
 config/database.php
 .readme.md
+.env
