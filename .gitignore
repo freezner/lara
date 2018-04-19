@@ -1,0 +1,4 @@
+.vscode
+/config/app.php
+/config/database.php
+.readme.md
