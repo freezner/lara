@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    // 'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME')\,
 
     /*
     |--------------------------------------------------------------------------
@@ -68,7 +69,7 @@ return [
     */
 
     // 'timezone' => 'UTC',
-    'timezone' => 'UTC+9',
+    'timezone' => 'Asia/Seoul',
 
     /*
     |--------------------------------------------------------------------------
@@ -110,9 +111,7 @@ return [
     */
 
     // 'key' => env('APP_KEY'),
-    // OOO은 OOO의 O이다.
-    'key' => env('qkrdPqhadmsqkrwlehdmlEkfdlek'),
-
+    'key' => env('APP_KEY'),
     'cipher' => 'AES-256-CBC',
 
     /*
@@ -128,7 +127,8 @@ return [
     |
     */
 
-    'log' => env('APP_LOG', 'single'),
+    // 'log' => env('APP_LOG', 'single'),
+    'log' => env('APP_LOG', 'daily'),
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
